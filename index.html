@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced HTML5 Page</title>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Welcome to My Advanced HTML5 Page</h1>
+  </header>
+
+  <!-- Ordered List with Roman Numerals -->
+  <section>
+    <h2>Steps to Learn HTML5</h2>
+    <ol type="I">
+      <li>Learn Basic Tags</li>
+      <li>Understand Forms</li>
+      <li>Use Semantic Elements</li>
+      <li>Practice Multimedia</li>
+      <li>Build Projects</li>
+    </ol>
+  </section>
+
+  <!-- External Image -->
+  <section>
+    <h2>Sample Image from Pexels</h2>
+    <img src="https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg" alt="Nature Scene from Pexels" width="400">
+  </section>
+
+  <!-- Contacts Table -->
+  <section>
+    <h2>Contact List</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Alice Mwangi</td>
+          <td>Nairobi</td>
+          <td>0712345678</td>
+          <td>alice@example.com</td>
+        </tr>
+        <tr>
+          <td>Brian Otieno</td>
+          <td>Kisumu</td>
+          <td>0723456789</td>
+          <td>brian@example.com</td>
+        </tr>
+        <tr>
+          <td>Chloe Kimani</td>
+          <td>Mombasa</td>
+          <td>0734567890</td>
+          <td>chloe@example.com</td>
+        </tr>
+        <tr>
+          <td>David Kiprono</td>
+          <td>Eldoret</td>
+          <td>0745678901</td>
+          <td>david@example.com</td>
+        </tr>
+        <tr>
+          <td>Emily Wambui</td>
+          <td>Nakuru</td>
+          <td>0756789012</td>
+          <td>emily@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Registration Form -->
+  <section>
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+      
+      <!-- Name -->
+      <label for="name">Full Name:</label><br>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+      <!-- Email -->
+      <label for="email">Email Address:</label><br>
+      <input type="email" id="email" name="email" placeholder="example@mail.com" required><br><br>
+
+      <!-- Password -->
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password" placeholder="Create a password" required minlength="6"><br><br>
+
+      <!-- Date -->
+      <label for="dob">Date of Birth:</label><br>
+      <input type="date" id="dob" name="dob" required><br><br>
+
+      <!-- Dropdown -->
+      <label for="country">Country:</label><br>
+      <select id="country" name="country" required>
+        <option value="">--Select Country--</option>
+        <option value="kenya">Kenya</option>
+        <option value="uganda">Uganda</option>
+        <option value="tanzania">Tanzania</option>
+      </select><br><br>
+
+      <!-- Radio Buttons -->
+      <label>Gender:</label><br>
+      <input type="radio" id="male" name="gender" value="male" required>
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label><br><br>
+
+      <!-- Checkboxes -->
+      <label>Skills:</label><br>
+      <input type="checkbox" id="html" name="skills" value="HTML">
+      <label for="html">HTML</label>
+      <input type="checkbox" id="css" name="skills" value="CSS">
+      <label for="css">CSS</label>
+      <input type="checkbox" id="js" name="skills" value="JavaScript">
+      <label for="js">JavaScript</label><br><br>
+
+      <button type="submit">Register</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Advanced HTML5 Assignment. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
